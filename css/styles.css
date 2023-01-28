@@ -1,0 +1,60 @@
+/* RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBALS */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Teko', sans-serif;
+  background-color: rgb(248, 249, 250);
+}
+
+.main {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3rem;
+}
+
+.main-heading {
+  font-size: calc(2rem + 2vw);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+/* IMAGES */
+.img-container {
+  width: 80%;
+}
+
+.img-container img {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+/* LOADER */
+.loader {
+  background-color: rgba(248, 259, 250, 0.8);
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.loader__img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
